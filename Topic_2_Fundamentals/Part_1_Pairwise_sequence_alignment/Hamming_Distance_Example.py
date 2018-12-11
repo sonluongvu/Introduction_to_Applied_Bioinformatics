@@ -6,6 +6,7 @@ from IPython.core import page
 page.page = print 
 
 from scipy.spatial.distance import hamming
+from skbio import DNA
 
 r1 = DNA("ACCCAGGTTAACGGTGACCAGGTACCAGAAGGGTACCAGGTAGGACACACGGGGATTAA")
 r2 = DNA("ACCGAGGTTAACGGTGACCAGGTACCAGAAGGGTACCAGGTAGGAGACACGGCGATTAA")
